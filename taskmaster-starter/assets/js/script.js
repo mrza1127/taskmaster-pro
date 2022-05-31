@@ -106,7 +106,7 @@ var status = $(this)
 
 //get the task's position in the list of other li elements
 var index= $(this)
-  .closest("list-group-item")
+  .closest(".list-group-item")
   .index();
 
 tasks[status][index].text = text;

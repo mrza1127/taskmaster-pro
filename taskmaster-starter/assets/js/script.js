@@ -92,7 +92,7 @@ $(".list-group").on("click", "p", function() {
   textInput.trigger("focus");
 });
 
-$("list-group").on("blur", "textarea", function () {
+$(".list-group").on("blur", "textarea", function () {
 // get the textarea's current value/text
 var text = $(this)
   .val()
